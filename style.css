@@ -1,0 +1,91 @@
+/* general */
+body{
+	
+	line-height: 30px;
+	font-size: 18px;
+	font-family: georgia;
+	color:#777;
+}
+h3{
+	font-size: 24px;
+}
+.push
+{
+	height: 70px;
+}
+.mainrow{
+	background-image: url("images/grey.jpg");
+	margin:0px;
+	padding: 30px;
+} 
+.nm-header {
+	background:#66D7D1 ;
+	padding:20px;
+	border-radius: 4px;
+	margin-left: 100px;
+}
+.nm-header a{
+	font-size: 26px;
+	font-weight: 600;
+}
+.nm-nav{
+	background-color: white;
+	border-bottom: 3px solid gray;
+	padding: 0;
+	width: 100%;
+}
+.nm-navi a{
+	color:black;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 4px;
+	font-size: 24px;
+}
+ 
+ .nm-pan1{
+ 	padding: 20px;
+ 	margin:auto;
+ 	margin-left: 70px;
+ }
+ .nm-pan2{
+ 	padding: 20px;
+ 	margin:auto;
+ }
+
+.active{
+	font-weight: bolder;
+	color: #666;
+	text-decoration: underline;
+}
+
+.social {
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+}
+footer {
+  clear: both;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background: #666;
+  border-top: 4px solid #4aaaa5;
+  margin-top: auto;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.social:hover{
+	opacity: 0.6;
+	width:95px;
+	height: 95px;
+	box-shadow: 0 5px 10px #aaa;
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0, 0, 0, 0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+
+}
